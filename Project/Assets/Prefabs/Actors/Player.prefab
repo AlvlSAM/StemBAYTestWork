@@ -104,7 +104,7 @@ MonoBehaviour:
   - {fileID: 1382654831687872026, guid: 9caff7a1d8252a74288c6b19d307944e, type: 3}
   characterSprite: {fileID: 8138308988620522297}
   characterColl: {fileID: 8329977795961722575}
-  speed: 80
+  speed: 100
   colliderSizeStates:
   - {x: 3.154235, y: 6.878357}
   - {x: 4.531193, y: 1.768237}
@@ -115,6 +115,11 @@ MonoBehaviour:
   - {x: -0.03293705, y: -1.51813}
   - {x: -0.07734489, y: -0.6157036}
   - {x: 0.07357645, y: -1.51813}
+  bombs:
+  - {fileID: 6211745793921546163, guid: 3c5ad29cac1fdcc409fbda40893ff048, type: 3}
+  - {fileID: 1329484169408602805, guid: 62d1eea85c70f344eba6b7a9b64567ce, type: 3}
+  - {fileID: 1329484169408602805, guid: 62d1eea85c70f344eba6b7a9b64567ce, type: 3}
+  bombsCount: []
 --- !u!61 &8329977795961722575
 BoxCollider2D:
   m_ObjectHideFlags: 0
